@@ -1,6 +1,6 @@
 # Database_Projects
-# Road Safty 
-# Project Overview:
+# Road Safety Analysis
+ Project Overview:
 # 1. Table Creation
 Accidents Table: A table named Accidents was created to store data about road accidents. It includes details such as accident ID, location, road, weather conditions, time of the accident, severity, number of vehicles involved, injuries, and deaths. The table is partitioned by year based on the accident_time column.
 Primary Key: A composite primary key was created using accident_id and accident_time to support partitioning.
